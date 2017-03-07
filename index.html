@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>CRYSTAL GAME</title>
+	
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"> </script>
+</head>
+<body>
+
+<img id="background" src="assets/images/background.jpg" alt="background">
+
+
+<h1 style="color:white; font-family: 'Rubik Mono One', sans-serif;"> Crystal Collector </h1>
+
+<br>
+
+<p><strong>Instructions</strong> 
+<br>
+<br>
+1) You will be given a random number at the start of the game.
+<br>
+<br>
+2) There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+<br>
+<br>
+3) You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+<br>
+<br>
+4) The value of each crystal is hidden from you until you click on it.
+<br>
+<br>
+5) Each time the game restarts, the value of the crystals will change.
+</p>
+
+<br>
+
+<div> <span id="random-number"></span> </div>
+
+<div style="color:white; font-size:larger;"> 
+<span id="counter">Wins: </span> <span id="win-counter"></span>
+<br> 
+<span id="counter">Losses: </span> <span id="loss-counter"></span> 
+</div>
+
+
+<div class="crystals">
+
+<button id="ruby"> <img src="assets/images/ruby.jpg" alt="crystal" height="100px" width="100px"> </button>
+<button id="emerald"> <img src="assets/images/emerald.jpg" alt="crystal" height="100px" width="100px"> </button>
+<button id="amethyst"> <img src="assets/images/amethyst.jpg" alt="crystal" height="100px" width="100px"> </button>
+<button id="aquamarine"> <img src="assets/images/aquamarine.jpg" alt="crystal" height="100px" width="100px"> </button>
+
+</div>
+
+<br>
+
+<div style="color:white; font-size:larger;"> 
+<span id="label">Total Score: </span> <span id="total-score"></span> 
+</div>
+
+
+
+
+
+</body>
+</html>
